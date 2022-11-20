@@ -87,6 +87,14 @@ body{
     right: 16%;
 }
 
+.rascals{
+    position: absolute;
+    height: auto;
+    width: 70%;
+    top: 20%;
+    left: 33%;
+}
+
 #slate1{
     height: auto;
     width: 8%;
