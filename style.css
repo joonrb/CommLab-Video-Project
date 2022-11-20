@@ -234,7 +234,7 @@ body{
 
 #blp1{
     position: absolute;
-    background-color: aqua;
+    background-color: #80471C;
     top: 30%;
     left: 20%;
     height: 50%;
@@ -250,7 +250,7 @@ body{
 
 #blp2{
     position: absolute;
-    background-color: aqua;
+    background-color: #80471C;
     top: 40%;
     right: 20%;
     height: 50%;
@@ -266,7 +266,7 @@ body{
 
 #blp3{
     position: absolute;
-    background-color: aqua;
+    background-color: #80471C;
     top: 40%;
     right: 30%;
     height: 50%;
