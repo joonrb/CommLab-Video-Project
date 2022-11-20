@@ -10,6 +10,7 @@ body{
 
 #background{
     -webkit-filter: blur(0px);
+    height: 100vh;
 }
 
 .mainVideo{
@@ -21,10 +22,10 @@ body{
 #skate{
     transition: transform .2s;
     height: auto;
-    width: 20%;
+    width: 17.5%;
     transform: rotate(-20deg); 
-    margin-top: 8%;
-    margin-left: 5%;
+    top: 17.5%;
+    left: 5%;
     position: absolute;
 }
 
@@ -36,8 +37,9 @@ body{
     transition: transform .2s;
     height: auto;
     width: 15%;
-    margin-top: 30%;
-    margin-left: 6%;
+    bottom: 2.5%;
+    left: 5%;
+    position: absolute;
 }
 
 #guit:hover{
@@ -47,11 +49,12 @@ body{
 #viol{
     transition: transform .2s;
     height: auto;
-    width: 15%;
+    width: 12.5%;
     transform: rotate(-90deg);
     float: right;
-    margin-right: 10%;
-    margin-top: 30%;
+    right: 7.5%;
+    bottom: 7.5%;
+    position: absolute;
 }
 
 #viol:hover{
@@ -63,8 +66,8 @@ body{
     width: 20%;
     display: none;
     position: absolute;
-    margin-left: 18%;
-    margin-top: 5%;
+    left: 18%;
+    top: 8%;
 }   
 
 #guit_m{
@@ -72,23 +75,24 @@ body{
     width: 18%;
     display: none;
     position: absolute;
-    margin-top: -15%;
-    margin-left: 12%;
+    bottom: 8%;
+    left: 13.5%;
 }
 
 #viol_m{
     height: auto;
     width: 15%;
-    float: right;
-    margin-top: 32%;
-    margin-left: 6%;
+    position: absolute;
+    bottom: 15%;
+    right: 16%;
 }
 
 #slate1{
     height: auto;
     width: 8%;
     position: absolute;
-    margin-top: 20%;
+    top: 45%;
+    left: 20%;
     transform: rotate(15deg);
     transition: transform .2s;
 }
@@ -100,9 +104,11 @@ body{
 #slate2{
     height: auto;
     width: 8%;
-    margin-left: 15%;
+    bottom: 5%;
+    left: 33%;
     transform: rotate(-10deg);
     transition: transform .2s;
+    position: absolute;
 }
 
 #slate2:hover{
@@ -115,8 +121,8 @@ body{
     position: absolute;
     transform: rotate(20deg);
     transition: transform .2s;
-    margin-top: 36%;
-    margin-left: 15%;
+    bottom: 5%;
+    right: 36.5%;
 }
 
 #slate3:hover{
@@ -128,38 +134,63 @@ body{
     height: auto;
     width: 12%;
 
-    margin-top: 2.5%;
-    margin-left: -35%;
+    top: 7.5%;
+    left: 7.5%;
     transform: rotate(-14deg);
 }
 
 #project{
     position: absolute;
     height: auto;
-    width: 12%;
+    width: 15%;
 
-    margin-top: 29%;
-    margin-left: -37%;
+    bottom: 32.5%;
+    left: 5%;
     transform: rotate(-7deg);
 }
 
 #cast{
     position: absolute;
     height: auto;
-    width: 8%;
-
-    margin-top: 27%;
-    margin-left: 33%;
+    width: 7.5%;
+    bottom: 35%;
+    right: 10%;
     transform: rotate(10deg);
 }
 
 #stickers{
     position: absolute;
     height: auto;
-    width: 50%;
+    width: 40%;
 
-    margin-top: 2%;
-    margin-left: 4%;
+    top: 4.5%;
+    right: 2%;
+}
+
+.blooperText1{
+    width: 10%;
+    height: auto;
+    position: absolute; 
+    top: 40%;
+    left: 20%;  
+}
+
+.blooperText2{
+    width: 10%;
+    height: auto;
+    position: absolute;
+
+    bottom: 22.5%;
+    left: 32.5%;
+}
+
+.blooperText3{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    
+    bottom: 22.5%;
+    right: 35%;
 }
 
 
@@ -171,8 +202,8 @@ body{
     cursor: pointer;
     font-size: 20px;
     position: absolute;
-    margin-top: 16%;
-    margin-left: 30%;
+    top: 30%;
+    right: 8%;
 }
 
 .btn{
@@ -183,13 +214,15 @@ body{
     cursor: pointer;
     font-size: 20px;
     position: absolute;
-    margin-top: 20%;
-    margin-left: 30%;
+    top: 39%;
+    right: 8%;
 }
 
 .btn:hover{
     background-color: Royalblue;
 }
+
+
 
 #blp1{
     position: absolute;
