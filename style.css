@@ -8,6 +8,16 @@ body{
     background-image: url("1.jpg");
 }
 
+#background{
+    -webkit-filter: blur(0px);
+}
+
+.mainVideo{
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 33%;
+}
+
 #skate{
     transition: transform .2s;
     height: auto;
@@ -113,6 +123,58 @@ body{
     transform: scale(1.5);
 }
 
+#music{
+    position: absolute;
+    height: auto;
+    width: 12%;
+
+    margin-top: 2.5%;
+    margin-left: -35%;
+    transform: rotate(-14deg);
+}
+
+#project{
+    position: absolute;
+    height: auto;
+    width: 12%;
+
+    margin-top: 29%;
+    margin-left: -37%;
+    transform: rotate(-7deg);
+}
+
+#cast{
+    position: absolute;
+    height: auto;
+    width: 8%;
+
+    margin-top: 27%;
+    margin-left: 33%;
+    transform: rotate(10deg);
+}
+
+#stickers{
+    position: absolute;
+    height: auto;
+    width: 50%;
+
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+
+.sub{
+    background-color: #c4302b;
+    border:none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 30%;
+}
+
 .btn{
     background-color: dodgerblue;
     border: none;
@@ -128,3 +190,52 @@ body{
 .btn:hover{
     background-color: Royalblue;
 }
+
+#blp1{
+    position: absolute;
+    background-color: aqua;
+    margin-top: -30%;
+    margin-left: 20%;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.bloop1{
+    justify-content: center;
+}
+
+#blp2{
+    position: absolute;
+    background-color: aqua;
+    margin-top: -40%;
+    margin-left: 20%;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.bloop2{
+    justify-content: center;
+}
+
+#blp3{
+    position: absolute;
+    background-color: aqua;
+    margin-top: -40%;
+    margin-left: 40%;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.bloop3{
+    justify-content: center;
+}
+
