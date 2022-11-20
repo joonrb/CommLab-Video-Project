@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("1.jpg");
+}
+
+#skate{
+    transition: transform .2s;
+    height: auto;
+    width: 20%;
+    transform: rotate(-20deg); 
+    margin-top: 8%;
+    margin-left: 5%;
+    position: absolute;
+}
+
+#skate:hover{
+    transform:scale(1.5);
+}
+
+#guit{
+    transition: transform .2s;
+    height: auto;
+    width: 15%;
+    margin-top: 30%;
+    margin-left: 6%;
+}
+
+#guit:hover{
+    transform: scale(1.8);
+}
+
+#viol{
+    transition: transform .2s;
+    height: auto;
+    width: 15%;
+    transform: rotate(-90deg);
+    float: right;
+    margin-right: 10%;
+    margin-top: 30%;
+}
+
+#viol:hover{
+    transform: scale(1.5);
+}
+
+#skate_m{
+    height: auto;
+    width: 20%;
+    display: none;
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 5%;
+}   
+
+#guit_m{
+    height: auto;
+    width: 18%;
+    display: none;
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 12%;
+}
+
+#viol_m{
+    height: auto;
+    width: 15%;
+    float: right;
+    margin-top: 32%;
+}
