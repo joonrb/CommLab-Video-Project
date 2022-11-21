@@ -17,6 +17,8 @@ body{
     position: absolute;
     top: 20%;
     left: 33%;
+    width: 40vw;
+    height: 25vw;
 }
 
 #skate{
